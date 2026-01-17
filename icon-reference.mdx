@@ -1,0 +1,169 @@
+---
+title: "Icon Reference"
+description: "Complete guide to using SF Symbols and Material Symbols in your documentation"
+icon: "sparkles"
+---
+
+This reference documents all the enhanced icons used throughout the documentation site, providing a guide for consistent icon usage in future content.
+
+## Icon System
+
+We use **SF Symbols** (Apple's comprehensive icon system) for a modern, premium aesthetic. SF Symbols provide:
+
+- Over 5,000 professionally designed symbols
+- Consistent visual language
+- Excellent rendering across all platforms
+- Semantic clarity for better user understanding
+
+## Icon Mapping Reference
+
+Below is the complete mapping of icons used throughout the documentation:
+
+### Navigation & Structure
+
+| Icon | SF Symbol | Usage | Context |
+|------|-----------|-------|---------|
+| Navigation | `map.fill` | Site navigation, structure | Navigation pages, site maps |
+| Documentation | `book.fill` | Documentation links | Global anchors, doc references |
+| Settings | `gearshape.fill` | Configuration, settings | Settings pages, preferences |
+
+### Getting Started & Actions
+
+| Icon | SF Symbol | Usage | Context |
+|------|-----------|-------|---------|
+| Launch/Start | `rocket.fill` | Getting started, deployment | Quickstart guides, launch actions |
+| Copy/Clone | `doc.on.doc.fill` | Clone, duplicate operations | Git clone, copy commands |
+| Terminal | `terminal.fill` | CLI, command line | Terminal commands, dev tools |
+
+### Content Creation
+
+| Icon | SF Symbol | Usage | Context |
+|------|-----------|-------|---------|
+| Edit | `square.and.pencil` | Editing, writing | Content editing, modifications |
+| Write | `pencil.and.list.clipboard` | Documentation writing | MDX writing, content creation |
+| Code | `curlybraces` | Code samples, programming | Code blocks, programming |
+| Code Brackets | `chevron.left.forwardslash.chevron.right` | HTML/code examples | Code examples, markup |
+
+### Design & Media
+
+| Icon | SF Symbol | Usage | Context |
+|------|-----------|-------|---------|
+| Customization | `paintpalette.fill` | Design, theming | Color schemes, branding |
+| Images | `photo.fill` | Images, media | Image galleries, media content |
+| Text Format | `textformat.size` | Markdown, text styling | Markdown pages, formatting |
+
+### Features & Concepts
+
+| Icon | SF Symbol | Usage | Context |
+|------|-----------|-------|---------|
+| Reusable | `arrow.triangle.2.circlepath` | Snippets, reusable content | Content reuse, components |
+| Inspiration | `sparkles` | Featured, special content | Showcases, highlights |
+| Blog/News | `newspaper.fill` | Blog posts, updates | News, announcements |
+| API/Nature | `leaf.fill` | API endpoints, growth | API documentation |
+
+### AI Tools
+
+| Icon | SF Symbol | Usage | Context |
+|------|-----------|-------|---------|
+| Cursor | `cursorarrow.rays` | Cursor editor | Cursor-specific content |
+| AI/Claude | `sparkle` | AI assistance | Claude, AI features |
+| Windsurf | `water.waves` | Windsurf editor | Windsurf-specific content |
+
+### Security & Time
+
+| Icon | SF Symbol | Usage | Context |
+|------|-----------|-------|---------|
+| Authentication | `key.fill` | Auth, security | Authentication guides |
+| Rate Limiting | `clock.fill` | Time-based features | Rate limits, timing |
+
+## Usage Guidelines
+
+### When to Use Filled Variants
+
+Use filled variants (`.fill`) for:
+- **Primary actions**: Main CTAs and important features
+- **Navigation items**: Top-level navigation and anchors
+- **Emphasis**: When you want to draw attention to specific content
+
+### When to Use Outline Variants
+
+Use outline variants (no `.fill`) for:
+- **Secondary actions**: Less prominent features
+- **Inline references**: Icons within text
+- **Subtle indicators**: Supporting information
+
+### Icon Selection Best Practices
+
+1. **Semantic Clarity**: Choose icons that clearly represent the concept
+2. **Consistency**: Use the same icon for the same concept throughout
+3. **Visual Balance**: Mix filled and outline variants for hierarchy
+4. **Context Awareness**: Consider the surrounding content and layout
+
+## Adding New Icons
+
+When adding new content, follow these steps:
+
+<Steps>
+<Step title="Choose the right icon">
+  Browse [SF Symbols](https://developer.apple.com/sf-symbols/) to find an appropriate icon that matches your content's purpose.
+</Step>
+
+<Step title="Use consistent naming">
+  SF Symbols use dot notation (e.g., `icon.variant.modifier`). Common modifiers:
+  - `.fill` - Filled variant
+  - `.circle` - Circular background
+  - `.square` - Square background
+</Step>
+
+<Step title="Test in context">
+  Preview your icon in both light and dark modes to ensure it looks good in all contexts.
+</Step>
+
+<Step title="Update this reference">
+  Add your new icon to this reference page to maintain consistency across the team.
+</Step>
+</Steps>
+
+## Examples
+
+### Using Icons in Cards
+
+```mdx
+<Card title="Getting Started" icon="rocket.fill" href="/quickstart">
+  Launch your documentation site in minutes.
+</Card>
+```
+
+### Using Icons in Accordions
+
+```mdx
+<Accordion icon="terminal.fill" title="Run the development server">
+  Start your local preview with `npm run dev`
+</Accordion>
+```
+
+### Using Icons in Page Frontmatter
+
+```mdx
+---
+title: "Settings"
+description: "Configure your documentation"
+icon: "gearshape.fill"
+---
+```
+
+## Resources
+
+<CardGroup cols={2}>
+<Card title="SF Symbols Browser" icon="sparkles" href="https://developer.apple.com/sf-symbols/">
+  Browse all available SF Symbols
+</Card>
+
+<Card title="Icon Design Guidelines" icon="paintpalette.fill" href="https://developer.apple.com/design/human-interface-guidelines/sf-symbols">
+  Apple's design guidelines for SF Symbols
+</Card>
+</CardGroup>
+
+<Note>
+This icon system was implemented to provide a more modern, cohesive visual language throughout the documentation. All icons are carefully selected to enhance user understanding and create a premium aesthetic.
+</Note>

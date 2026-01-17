@@ -1,11 +1,11 @@
 {
-  "$schema": "https://mintlify.com/docs.json",
-  "theme": "mint",
-  "name": "Mint Starter Kit",
+  "$schema": "https://docs-platform.com/docs.json",
+  "theme": "docs",
+  "name": "Documentation Starter Kit",
   "colors": {
-    "primary": "#16A34A",
-    "light": "#07C983",
-    "dark": "#15803D"
+    "primary": "#3B82F6",
+    "light": "#60A5FA",
+    "dark": "#2563EB"
   },
   "favicon": "/favicon.svg",
   "navigation": {
@@ -72,13 +72,13 @@
       "anchors": [
         {
           "anchor": "Documentation",
-          "href": "https://mintlify.com/docs",
-          "icon": "book-open-cover"
+          "href": "https://docs-platform.com/docs",
+          "icon": "book.fill"
         },
         {
           "anchor": "Blog",
-          "href": "https://mintlify.com/blog",
-          "icon": "newspaper"
+          "href": "https://docs-platform.com/blog",
+          "icon": "newspaper.fill"
         }
       ]
     }
@@ -91,13 +91,13 @@
     "links": [
       {
         "label": "Support",
-        "href": "mailto:hi@mintlify.com"
+        "href": "mailto:support@docs-platform.com"
       }
     ],
     "primary": {
       "type": "button",
       "label": "Dashboard",
-      "href": "https://dashboard.mintlify.com"
+      "href": "https://dashboard.docs-platform.com"
     }
   },
   "contextual": {
@@ -114,9 +114,9 @@
   },
   "footer": {
     "socials": {
-      "x": "https://x.com/mintlify",
-      "github": "https://github.com/mintlify",
-      "linkedin": "https://linkedin.com/company/mintlify"
+      "x": "https://x.com/docsplatform",
+      "github": "https://github.com/docs-platform",
+      "linkedin": "https://linkedin.com/company/docs-platform"
     }
   }
 }

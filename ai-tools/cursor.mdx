@@ -1,10 +1,10 @@
 ---
 title: "Cursor setup"
 description: "Configure Cursor for your documentation workflow"
-icon: "arrow-pointer"
+icon: "cursorarrow.rays"
 ---
 
-Use Cursor to help write and maintain your documentation. This guide shows how to configure Cursor for better results on technical writing tasks and using Mintlify components.
+Use Cursor to help write and maintain your documentation. This guide shows how to configure Cursor for better results on technical writing tasks and using Documentation Platform components.
 
 ## Prerequisites
 
@@ -22,9 +22,9 @@ mkdir -p .cursor
 Create `.cursor/rules.md`:
 
 ````markdown
-# Mintlify technical writing rule
+# Documentation Platform technical writing rule
 
-You are an AI writing assistant specialized in creating exceptional technical documentation using Mintlify components and following industry-leading technical writing practices.
+You are an AI writing assistant specialized in creating exceptional technical documentation using Documentation Platform components and following industry-leading technical writing practices.
 
 ## Core writing principles
 
@@ -57,7 +57,7 @@ You are an AI writing assistant specialized in creating exceptional technical do
 - Write for scannability with clear headings, lists, and white space
 - Include verification steps to confirm success
 
-## Mintlify component reference
+## Documentation Platform component reference
 
 ### Callout components
 
@@ -233,16 +233,16 @@ Example of accordion groups:
 
 Example of cards and card groups:
 
-<Card title="Getting started guide" icon="rocket" href="/quickstart">
+<Card title="Getting started guide" icon="rocket.fill" href="/quickstart">
 Complete walkthrough from installation to your first API call in under 10 minutes.
 </Card>
 
 <CardGroup cols={2}>
-<Card title="Authentication" icon="key" href="/auth">
+<Card title="Authentication" icon="key.fill" href="/auth">
   Learn how to authenticate requests using API keys or JWT tokens.
 </Card>
 
-<Card title="Rate limiting" icon="clock" href="/rate-limits">
+<Card title="Rate limiting" icon="clock.fill" href="/rate-limits">
   Understand rate limits and best practices for high-volume usage.
 </Card>
 </CardGroup>
@@ -329,14 +329,14 @@ Use the HTML video element for self-hosted video content:
 
 <video
   controls
-  className="w-full aspect-video rounded-xl"
+  className="rounded-xl w-full aspect-video"
   src="link-to-your-video.com"
 ></video>
 
 Embed YouTube videos using iframe elements:
 
 <iframe
-  className="w-full aspect-video rounded-xl"
+  className="rounded-xl w-full aspect-video"
   src="https://www.youtube.com/embed/4KzFe50RQkQ"
   title="YouTube video player"
   frameBorder="0"
