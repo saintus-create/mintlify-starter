@@ -1,0 +1,87 @@
+/* ABC Repro Font Family - Custom Font Declarations */
+
+/* ABC Repro - Light 300 */
+@font-face {
+  font-family: 'ABC Repro';
+  src: url('./abc-repro/ABCRepro-Light-Trial.woff2') format('woff2'),
+       url('./abc-repro/ABCRepro-Light-Trial.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'ABC Repro';
+  src: url('./abc-repro/ABCRepro-LightItalic-Trial.woff2') format('woff2'),
+       url('./abc-repro/ABCRepro-LightItalic-Trial.woff') format('woff');
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+
+/* ABC Repro - Regular 400 */
+@font-face {
+  font-family: 'ABC Repro';
+  src: url('./abc-repro/ABCRepro-Regular-Trial.woff2') format('woff2'),
+       url('./abc-repro/ABCRepro-Regular-Trial.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'ABC Repro';
+  src: url('./abc-repro/ABCRepro-RegularItalic-Trial.woff2') format('woff2'),
+       url('./abc-repro/ABCRepro-RegularItalic-Trial.woff') format('woff');
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+/* ABC Repro - Medium 500 */
+@font-face {
+  font-family: 'ABC Repro';
+  src: url('./abc-repro/ABCRepro-Medium-Trial.woff2') format('woff2'),
+       url('./abc-repro/ABCRepro-Medium-Trial.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'ABC Repro';
+  src: url('./abc-repro/ABCRepro-MediumItalic-Trial.woff2') format('woff2'),
+       url('./abc-repro/ABCRepro-MediumItalic-Trial.woff') format('woff');
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+
+/* ABC Repro - Bold 700 */
+@font-face {
+  font-family: 'ABC Repro';
+  src: url('./abc-repro/ABCRepro-Bold-Trial.woff2') format('woff2'),
+       url('./abc-repro/ABCRepro-Bold-Trial.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'ABC Repro';
+  src: url('./abc-repro/ABCRepro-BoldItalic-Trial.woff2') format('woff2'),
+       url('./abc-repro/ABCRepro-BoldItalic-Trial.woff') format('woff');
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+}
+
+/* ABC Repro - Black 800 */
+@font-face {
+  font-family: 'ABC Repro';
+  src: url('./abc-repro/ABCRepro-Black-Trial.woff2') format('woff2'),
+       url('./abc-repro/ABCRepro-Black-Trial.woff') format('woff');
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}

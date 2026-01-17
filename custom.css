@@ -1,0 +1,51 @@
+/* Import ABC Repro fonts */
+@import url('/fonts/fonts.css');
+
+/* Apply ABC Repro globally with system font fallbacks */
+:root {
+  --font-family-base: 'ABC Repro', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif;
+  --font-family-heading: 'ABC Repro', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif;
+}
+
+/* Apply to body text */
+body {
+  font-family: var(--font-family-base);
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Apply to all headings */
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-family-heading);
+}
+
+/* Specific heading weights for visual hierarchy */
+h1 {
+  font-weight: 800; /* Black */
+}
+
+h2 {
+  font-weight: 700; /* Bold */
+}
+
+h3 {
+  font-weight: 700; /* Bold */
+}
+
+h4 {
+  font-weight: 500; /* Medium */
+}
+
+h5 {
+  font-weight: 500; /* Medium */
+}
+
+h6 {
+  font-weight: 500; /* Medium */
+}
+
+/* Code blocks should use monospace */
+code, pre, kbd, samp {
+  font-family: 'SF Mono', 'Monaco', 'Inconsolata', 'Fira Code', 'Droid Sans Mono', 'Source Code Pro', monospace;
+}
